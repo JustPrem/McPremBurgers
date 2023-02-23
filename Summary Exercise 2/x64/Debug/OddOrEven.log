@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Programming\C++\University\McPremBurgers\Summary Exercise 2\OddOrEven\OddOrEven\Source.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  OddOrEven.vcxproj -> D:\Programming\C++\University\McPremBurgers\Summary Exercise 2\OddOrEven\x64\Debug\OddOrEven.exe

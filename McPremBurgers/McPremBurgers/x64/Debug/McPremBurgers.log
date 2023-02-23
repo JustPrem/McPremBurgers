@@ -1,0 +1,4 @@
+﻿  cApplication.cpp
+D:\Programming\C++\University\McPremBurgers\McPremBurgers\McPremBurgers\cApplication.cpp(435,50): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\C++\University\McPremBurgers\McPremBurgers\McPremBurgers\cApplication.cpp(460,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  McPremBurgers.vcxproj -> D:\Programming\C++\University\McPremBurgers\McPremBurgers\x64\Debug\McPremBurgers.exe

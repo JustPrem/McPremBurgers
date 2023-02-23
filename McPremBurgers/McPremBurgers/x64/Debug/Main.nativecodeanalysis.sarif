@@ -1,0 +1,102 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'cElement::mDisplayText' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programming/C++/University/McPremBurgers/McPremBurgers/McPremBurgers/ConsoleGUI/cElement.h"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 1,
+                  "endLine": 24,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cElement::{ctor}",
+                  "decoratedName": "??0cElement@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cElement::mDisplayText"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Programming/C++/University/McPremBurgers/McPremBurgers/McPremBurgers/ConsoleGUI/cElement.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "757860d503a71123e5b43713a077b770262d5a7d37e1bba3606d3c57bf35af24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c++/university/mcpremburgers/mcpremburgers/mcpremburgers/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "869d86c68f56703f2725f681882a9f0ae05a78ae252f01d505a58f649d509c8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c++/university/mcpremburgers/mcpremburgers/mcpremburgers/capplication.h"
+          },
+          "hashes": {
+            "sha-256": "79dcb9fc4c7b9bbb56e5cf637b28eaef3ed832c44b3b3b8c59d37b8672a1de25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c++/university/mcpremburgers/mcpremburgers/mcpremburgers/consolegui/cgui.h"
+          },
+          "hashes": {
+            "sha-256": "a9b9a3e3f95973cccb9cecaacbb734d5ddf479b56e9dc40757fec4d6407742b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c++/university/mcpremburgers/mcpremburgers/mcpremburgers/consolegui/cscreen.h"
+          },
+          "hashes": {
+            "sha-256": "56a026035dd93511b0c1ec9d3d976794634396a88c38b0687228901213becd6f"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Programming\C++\University\McPremBurgers\Summary Exercise 1\Odd Numbers\Odd Numbers\Source.cpp(5,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Odd Numbers.vcxproj -> D:\Programming\C++\University\McPremBurgers\Summary Exercise 1\Odd Numbers\x64\Debug\Odd Numbers.exe

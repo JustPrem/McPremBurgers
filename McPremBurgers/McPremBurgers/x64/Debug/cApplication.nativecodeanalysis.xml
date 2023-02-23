@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Programming\C++\University\McPremBurgers\McPremBurgers\McPremBurgers\ConsoleGUI\</FILEPATH>
+      <FILENAME>cElement.h</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cElement::mDisplayText' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cElement::{ctor}</FUNCTION>
+    <DECORATED>??0cElement@@QEAA@XZ</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cElement::mDisplayText</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

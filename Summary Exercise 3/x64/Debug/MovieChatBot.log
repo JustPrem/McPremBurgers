@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Programming\C++\University\McPremBurgers\Summary Exercise 3\MovieChatBot\MovieChatBot\Source.cpp(62,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  MovieChatBot.vcxproj -> D:\Programming\C++\University\McPremBurgers\Summary Exercise 3\MovieChatBot\x64\Debug\MovieChatBot.exe
